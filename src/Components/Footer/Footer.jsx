@@ -1,6 +1,7 @@
 import React from "react";
 import { VscGithub } from "react-icons/vsc";
 import { FaLinkedin } from "react-icons/fa";
+import './Footer.css';
 
 function Footer () {
     return (
