@@ -1,0 +1,11 @@
+section {
+    padding: 50px;
+    background: linear-gradient(to right, rgb(10, 10, 80), rgb(10, 10, 120));
+    width: 90%;
+    border: 5px inset rgb(71, 71, 221);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

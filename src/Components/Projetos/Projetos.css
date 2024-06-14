@@ -1,0 +1,68 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 40%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projetos h2 {
+    font-size: 4vh;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(239, 239, 239), rgb(138, 173, 201), rgb(108, 206, 196));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.projetos p {
+    font-size: 2.4vh;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(239, 239, 239), rgb(138, 173, 201), rgb(108, 206, 196));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+}
+
+.projetosImagens {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+div img:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.educacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.educacao div {
+    display: flex;
+    margin: 5px 0;
+}
+
+.book {
+    min-height: 30px;
+    min-height: 30px;
+    margin: 0 2px;
+    margin-top: 7px;
+    color: rgb(126, 62, 19);
+}

@@ -1,12 +1,10 @@
-import { FiAlignJustify } from "react-icons/fi";
-import React, { useState } from 'react';
+import './Header.css';
+import { VscGithub } from "react-icons/vsc";
+import { FaLinkedin } from "react-icons/fa";
+import CopiarGmail from './CopiarGmail';
 
 function Header() {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+    const email = "btrindade@gmail.com";
 
     return (
         <header>
@@ -14,14 +12,10 @@ function Header() {
 
                 <h2> Bruno Trindade </h2>
 
-                <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-                    <a href="#sobre"><li>Sobre</li></a>
-                    <a href="#habilidades"><li>Habilidades</li></a>
-                    <a href="#projetos"><li>Projetos</li></a>
-                    <a href="#missao"><li>Missão</li></a>
-                </ul>
-                <div className="menu-icon" onClick={toggleMenu}>
-                    &#9776; {FiAlignJustify}
+                <div className="icons-social">
+                    <CopiarGmail email={email}/>
+                    <a href="https://github.com/brunotrindadefm" className='gitHub' target='_blank'><VscGithub /></a>
+                    <a href="https://www.linkedin.com/in/bruno-trindade-883b03300/" target='_blank'><FaLinkedin /></a>
                 </div>
             </nav>
         </header>

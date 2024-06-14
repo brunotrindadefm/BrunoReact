@@ -1,9 +1,10 @@
 import React from "react";
+import './Section.css'
 
-function Section () {
+function Section ({children}) {
     return (
-        <section className="secao">
-
+        <section >
+            {children}
         </section>
     )
 }
