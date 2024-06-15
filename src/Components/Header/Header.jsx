@@ -10,7 +10,7 @@ function Header() {
         <header>
             <nav>
 
-                <h2> Bruno Trindade </h2>
+                <h2 className='nomeHeader'> Bruno Trindade </h2>
 
                 <div className="icons-social">
                     <CopiarGmail email={email}/>

@@ -12,14 +12,16 @@ function Sobre() {
     return (
 
         <div className="sobre">
-            <h1>Oi, meu nome é Bruno</h1>
+            <h1>Oi! meu nome</h1>
+                <h1>é Bruno</h1>
 
             <div className="brunoImg">
                 <img src="src/images/BrunoTrindade.png" alt="Bruno Trindade"></img>
             </div>
 
             <div className="sobreEu">
-                <h2>Desenvolvedor Web</h2>
+                <h2>Desenvolvedor </h2>
+                    <h2 className="web">Front-end</h2>
             </div>
             <div className="sobreMim">
                 <p>Sou uma pessoa curiosa e apaixonada por desafios. Estou constantemente buscando aprender e me desenvolver, tanto pessoalmente quanto profissionalmente. Tenho um forte desejo de fazer a diferença no mundo da tecnologia e estou ansioso para colaborar com equipes talentosas e inspiradoras.</p>

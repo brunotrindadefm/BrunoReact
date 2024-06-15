@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 40%;
+    width: 42%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,6 +20,11 @@
     font-size: 3vh;
     color: white;
     margin: 10px 0;
+}
+
+.web {
+    text-align: center;
+    font-size: 3vh;
 }
 
 .sobreMim {
@@ -53,13 +58,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px 0;
     width: 70%;
 }
 
 .skills div {
-    display: inline;
     margin: 5px 10px;
     font-size: 40px;
+    display: inline;
 }
 
 .iconsCima>div:nth-child(1) {
@@ -90,8 +96,34 @@
     color: rgb(197, 10, 10);
 }
 
+@media (max-width: 1400px) {
+    .sobre {
+        width: 100%;
+    }
+}
+
 @media (max-width: 670px) {
     .sobre h1 {
         font-size: 4vh;
     }
-}
+    .skills {
+        width: 100%;
+    }
+}  
+
+@media (max-width: 400px) {
+    .sobreEu {
+        font-size: 1.9vh;
+    }
+    .sobre h1 {
+        font-size: 2.7vh;
+    }
+
+    .skills h2 {
+        font-size: 3.6vh;
+    }
+    .skills {
+        width: 200px;
+    }
+}    
+
