@@ -24,15 +24,15 @@ function Projetos() {
                     <img src="src/images/CalculadoraIMC.png" alt="calculadora de imc"></img>
                 </div>
                 <div>
-                <p>Balões</p>
-                    <img src="src/images/JB&JBallons.png" alt="calculadora de imc"></img>
+                <p>Mira</p>
+                    <img src="src/images/miratreino.png" alt="treinamento de mira"></img>
                 </div>
                 <div>
-                <p>IMC</p>
+                <p>React</p>
                     <img src="src/images/CalculadoraIMC.png" alt="calculadora de imc"></img>
                 </div>
                 <div>
-                <p>Cervejaria</p>
+                <p>React</p>
                     <img src="src/images/Cervejaria.png" alt="calculadora de imc"></img>
                 </div>
             </div>

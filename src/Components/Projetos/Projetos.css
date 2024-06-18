@@ -35,17 +35,18 @@
     width: 80%;
     max-width: 480px;
     margin: 10px 0;
+    position: relative;
 }
 
-div img {
+.projetosImagens div img {
     max-width: 150px;
     height: auto;
     border-radius: 20px;
     transition: 0.4s ease;
-    border: 2px inset blue;
+    border: 2px inset wheat;
 }
 
-div img:hover {
+.projetosImagens div img:hover {
     transform: scale(1.1);
     transition: 0.4s ease;
 }
